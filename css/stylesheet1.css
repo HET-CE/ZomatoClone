@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    font-family: sans-serif;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    padding: 15px;
+    background-color: tomato;
+    align-items: center;
+    /* justify-content: center; */
+}
+ .nav-left{
+    display: flex;
+    width: 17%;
+    align-items: left;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-right{
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    
+}
+.login{
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.createaccount{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    color: white;
+}
+.section{
+    background-image: url("https://source.unsplash.com/featured/?food,junkfood");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 30vw;
+}
+.header1{
+    padding: 75px; 
+    margin-top: auto;  
+    text-align: center
+}
+.delivery-locate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.delivery-locate1{
+    font-size: 50px;
+    align-self: baseline;
+    padding-left: 145px;
+    color: white;
+}
+.delivery-locate2{
+    font-size: 30px;
+    align-self: baseline;
+    padding-left: 145px;
+    color: white;
+}
+.maps-black{
+    width: 4%;
+    margin-right: 2px;
+}
+.send{
+    width: 2%;
+    margin-right: 2px;
+}
+.search-container{
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  display: flex;
+}
+.search-city{
+    width: 183px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+}
+.search-city2{
+    width: 547px;
+    padding: 20px;
+    margin-left: 4px;
+    border: 0px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+.find-restro{
+    background-color: green;
+    padding: 20px 60px;
+    font-size: 15px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0px;
+}
+  
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.info1{
+    width: 200px;
+}
+.last-section-cont{
+    background-color:  #f0e6e5;
+    height: 450px;
+}
+.last-2-container-main{
+    margin-top: 80px;
+}
+.last-2-container{
+    display: flex;
+    padding-top: 80px;
+}
+.mobile-image{
+    margin-left: 200px;
+    height: 70%;
+}
+.last-2-container-header{
+    padding: 10px;
+    font-size: 25px;
+}
+.last-2-container-subheader{
+    padding: 0px 0px 15px 10px;
+    font-size: 20px;
+}
+.last-2-container-or{
+    margin: 10px 0px;
+    padding: 3px 115px;
+}
+.last-2-container-91{
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+.phone-container{
+    display: flex;
+}
+.last-2-container-part-2{
+    margin-top: 10px;
+}
+.last-2-container-phone{
+    padding: 8px;
+    border: 0px;
+    border-radius: 3px;
+}
+.span-button{
+    padding: 70px;
+}
+.app-link-button{
+    padding: 10px 25px;
+    margin-top: 10px;
+    width: 238px;
+    background-color: tomato;
+    border-radius: 4px;
+}
